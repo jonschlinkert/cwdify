@@ -1,0 +1,42 @@
+{
+  "name": "cwdify",
+  "description": "Replace the cwd in a file path with the Bash equivalent: `~+` ",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/cwdify",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/cwdify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/cwdify/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/cwdify/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "cwd",
+    "expand",
+    "expand-tilde",
+    "expansion",
+    "tilde",
+    "tildify"
+  ],
+  "dependencies": {
+    "is-absolute": "^0.1.5"
+  }
+}
