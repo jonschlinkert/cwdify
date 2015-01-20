@@ -1,6 +1,6 @@
 # cwdify [![NPM version](https://badge.fury.io/js/cwdify.svg)](http://badge.fury.io/js/cwdify)
 
-> Replace the cwd in an absolute path with the Bash equivalent: `~+`
+> Replace the cwd in an absolute path with the Bash equivalent: `~+`. Like untildify, but for cwd instead of userhome.
 
 ## Install with [npm](npmjs.org)
 
