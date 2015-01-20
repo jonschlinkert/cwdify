@@ -1,7 +1,7 @@
 {
   "name": "cwdify",
-  "description": "Replace the cwd in a file path with the Bash equivalent: `~+` ",
-  "version": "0.1.0",
+  "description": "Replace the cwd in an absolute path with the Bash equivalent: `~+`",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/cwdify",
   "author": {
     "name": "Jon Schlinkert",

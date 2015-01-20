@@ -1,6 +1,6 @@
 # cwdify [![NPM version](https://badge.fury.io/js/cwdify.svg)](http://badge.fury.io/js/cwdify)
 
-> Replace the cwd in a file path with the Bash equivalent: `~+` 
+> Replace the cwd in an absolute path with the Bash equivalent: `~+`
 
 ## Install with [npm](npmjs.org)
 
@@ -16,6 +16,13 @@ var cwdify = require('cwdify');
 cwdify('/Users/jonschlinkert/dev/cwdify/foo/bar');
 //=> '~+/foo/bar'
 ```
+
+## Related
+
+- [expand-tilde](https://github.com/jonschlinkert/expand-tild) to expand tilde paths and cwd paths to absolute paths.
+- [tildify](https://github.com/sindresorhus/tildify) to replace the user home in an absolute path with a tilde path.
+- [untildify](https://github.com/sindresorhus/untildify) for the reverse of tildify.
+
 
 ## Run tests
 
